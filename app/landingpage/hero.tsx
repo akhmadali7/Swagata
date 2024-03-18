@@ -19,8 +19,8 @@ export function Hero() {
                     <div className="xl:w-2/5 flex flex-col justify-around">
                         <h3 className="">{contentText.heroHeaderH3}</h3>
                         <div className="flex flex-row items-center pt-6 gap-x-7 font-sans">
-                            <a href="#"><div className="py-[13px] px-7 bg-primary text-white rounded-full">Start free trial </div></a>
-                            <a href="#"><button className="py-3 px-7 bg-transparent text-black rounded-full border-solid border-[1px] border-black">Our Study Case</button></a>
+                            <a href="" className="py-[13px] px-7 bg-primary text-white rounded-full">Start free trial </a>
+                            <a href="" className="py-3 px-7 bg-transparent text-black rounded-full border-solid border-[1px] border-black">Our Study Case</a>
                         </div>
                     </div>
 

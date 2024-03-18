@@ -1,5 +1,6 @@
 export function QuoteCTA() {
     return (
+
         <div className="px-96 py-14">
             <div className="flex flex-col md:flex-row justify-start gap-x-6">
                 <p className="text-secondary font-medium font-sans md:w-2/12">Qet a quote</p>
