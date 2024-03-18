@@ -1,8 +1,8 @@
 # Swagata - Business Insurance Product Service
 
-```markdown
+
 Swagata's landing page website built using Next.js, Tailwind CSS, and TypeScript.
-```
+
 
 ## Features
 - Responsive design for optimal viewing on various devices.
