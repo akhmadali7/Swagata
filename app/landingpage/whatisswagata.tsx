@@ -3,7 +3,7 @@ import { FaceIcon, ImageIcon, ArrowRightIcon } from '@radix-ui/react-icons'
 export function Whatis() {
     return (
 
-        <div className="py-10 px-96">
+        <div className="py-20 px-96" id="WhySwagata">
             <div className="flex flex-col md:flex-row justify-start gap-x-6">
                 <p className="text-secondary font-medium font-sans md:w-2/12">Why choose Swagata</p>
                 <h2 className="text-5xl font-sans font-medium md:w-auto">Built from the ground up for the internet generation.</h2>

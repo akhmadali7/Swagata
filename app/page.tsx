@@ -8,6 +8,7 @@ import { CTA } from "./landingpage/CTA";
 import { Feature } from "./landingpage/feature";
 import { Review } from "./landingpage/review"
 import { QuoteCTA } from "./landingpage/quoteCTA";
+import { Footer } from "./landingpage/footer";
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
       <Feature />
       <Review />
       <QuoteCTA />
-
+      <Footer />
 
       <div>
       </div>

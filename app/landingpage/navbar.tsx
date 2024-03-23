@@ -2,10 +2,10 @@ export function Navbar() {
 
     const navLinks = [
         { name: "Get product", link: "#" },
-        { name: "Why Swagata?", link: "#" },
+        { name: "Why Swagata?", link: "#WhySwagata" },
         { name: "Study Case", link: "#" },
         { name: "About Us", link: "#" },
-        { name: "Contact Us", link: "#" },
+        { name: "Contact Us", link: "#Quote" },
     ]
 
 
@@ -19,7 +19,7 @@ export function Navbar() {
                 <div className="hidden lg:flex flex-row gap-x-4 xl:gap-x-11">
                     {navLinks.map((item, index) => (
                         <div key={index}>
-                            <a href="">{item.name}</a>
+                            <a href={item.link}>{item.name}</a>
                         </div>
                     ))}
                 </div>

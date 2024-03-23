@@ -2,7 +2,7 @@ import { FaceIcon, ImageIcon, SunIcon } from '@radix-ui/react-icons'
 
 export function Feature() {
     return (
-        <div className="pt-14 px-96 pb-14 bg-[#F7F7F7] bg-opacity-80">
+        <div className="py-20 px-96 bg-[#F7F7F7] bg-opacity-80">
             <div className="flex flex-col md:flex-row justify-start gap-x-6">
                 <p className="text-secondary font-medium font-sans md:w-2/12">Swagata featured products</p>
                 <h2 className="text-5xl font-sans font-medium md:w-auto">Raise your expectation of what your insurer should deliver.</h2>
