@@ -13,7 +13,7 @@ Swagata's landing page website built using Next.js, Tailwind CSS, and TypeScript
 
 ## Demo
 
-Visit the ([Swagata website](https://swagata.vercel.app/)) to see it in action
+Visit the ([Swagata website](https://swagata-8pmbxxc2d-akhmad-alis-projects.vercel.app/)) to see it in action
 
 ## Design Inspiration
 
