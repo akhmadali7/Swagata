@@ -1,10 +1,10 @@
 export function QuoteCTA() {
     return (
 
-        <div className="px-96 py-32" id="Quote">
+        <div className="py-32 px-3 sm:px-12 md:px-16 lg:px-20 xl:px-40 2xl:px-96" id="Quote">
             <div className="flex flex-col md:flex-row justify-start gap-x-6">
                 <p className="text-secondary font-medium font-sans md:w-2/12">Qet a quote</p>
-                <h2 className="text-5xl font-sans font-medium md:w-auto">Customizable coverage options for business of all types and sizes</h2>
+                <h2 className="text-5xl font-sans font-medium md:w-auto">Customizable coverage options for business of all types and sizes.</h2>
             </div>
             <div className="pt-[70px] flex flex-row items-center justify-between gap-x-3">
                 <p className="w-4/12">Get world-class cover that rewards you with wealth while you&rsquo;re alive </p>

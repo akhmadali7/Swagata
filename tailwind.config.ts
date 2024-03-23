@@ -8,24 +8,7 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    //custom
-    colors: {
-      "primary" : '#141F1A',
-      "secondary" : '#547767',
-      "accent" : '#FF7455',
-      "tertiary" : '#E0EBE5',
 
-      //default
-      transparent: 'transparent',
-      current: 'currentColor',
-      black: colors.black,
-      white: colors.white,
-      gray: colors.gray,
-      emerald: colors.emerald,
-      indigo: colors.indigo,
-      yellow: colors.yellow,
-      slate: colors.slate,
-    },
 
     fontFamily: {
       "sans": "Poppins, sans-serif",
@@ -45,6 +28,13 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
+      //custom
+      colors: {
+        "primary" : '#141F1A',
+        "secondary" : '#547767',
+        "accent" : '#FF7455',
+        "tertiary" : '#E0EBE5',
       },
     },
   },

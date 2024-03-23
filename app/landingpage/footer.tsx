@@ -1,4 +1,5 @@
 import { ArrowRightIcon } from '@radix-ui/react-icons'
+import { BiLogoJoomla } from "react-icons/bi";
 
 export function Footer() {
 
@@ -49,7 +50,7 @@ export function Footer() {
             <div className="flex flex-row justify-between">
                 <div className="w-1/3  flex flex-row gap-x-10">
                     <h3 className="text-tertiary text-opacity-70">Who we are</h3>
-                    <div className="flex flex-col gap-y-2">
+                    <div className="flex flex-col gap-y-1 text-slate-200">
                         {footer.find(section => section.section === "Who We Are") // Find the "Who We Are" section
                             ?.links // Access the links within the section
                             ?.map((link, index) => ( // Map through the links
@@ -60,7 +61,7 @@ export function Footer() {
                 <div className="flex flex-col w-1/3 justify-between">
                     <div className=" flex flex-row gap-x-10">
                         <h3 className="text-tertiary text-opacity-70">Company</h3>
-                        <div className="flex flex-col gap-y-2">
+                        <div className="flex flex-col gap-y-1 text-slate-200">
                             {footer.find(section => section.section === "Company") // Find the "Who We Are" section
                                 ?.links // Access the links within the section
                                 ?.map((link, index) => ( // Map through the links
@@ -70,7 +71,7 @@ export function Footer() {
                     </div>
                     <div className="  flex flex-row gap-x-10">
                         <h3 className="text-tertiary text-opacity-70">About Us</h3>
-                        <div className="flex flex-col gap-y-2">
+                        <div className="flex flex-col gap-y-1 text-slate-200">
                             {footer.find(section => section.section === "About Us") // Find the "Who We Are" section
                                 ?.links // Access the links within the section
                                 ?.map((link, index) => ( // Map through the links
@@ -82,7 +83,7 @@ export function Footer() {
                 </div>
                 <div className="w-1/3  flex flex-row gap-x-10">
                     <h3 className="text-tertiary text-opacity-70">Socials</h3>
-                    <div className="flex flex-col gap-y-2">
+                    <div className="flex flex-col gap-y-1 text-slate-200">
                         {footer.find(section => section.section === "Socials") // Find the "Who We Are" section
                             ?.links // Access the links within the section
                             ?.map((link, index) => ( // Map through the links
@@ -99,8 +100,8 @@ export function Footer() {
 
             <div className=" flex flex-row justify-between items-center">
                 <div>
-                    <div className="flex flex-row gap-x-3 items-center">
-                        <p>[logo]</p>
+                    <div className="flex flex-row gap-x-2 items-center">
+                        <BiLogoJoomla className='h-8 w-8' />
                         <h1 className="text-2xl font-medium">Swagata</h1>
                     </div>
                     <div className="flex flex-row text-sm text-tertiary text-opacity-70 pt-2 gap-x-5">

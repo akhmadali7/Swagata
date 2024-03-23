@@ -10,6 +10,8 @@ import { Review } from "./landingpage/review"
 import { QuoteCTA } from "./landingpage/quoteCTA";
 import { Footer } from "./landingpage/footer";
 
+
+
 export default function Home() {
   return (
     <main className="text-slate-800">

@@ -1,0 +1,109 @@
+{
+    "Hero": {
+        "header1": "Taking care of what's important.",
+        "header2": "We've built our life and business insurance products from the ground up to both protect you and reward you."
+    },
+
+    "plan": [
+        {
+            "id": 1,
+            "name": "Individuals and Family",
+            "description": "If you die, we give you a proper send-off and help your family keep living their best life"
+        },
+        {
+            "id": 2,
+            "name": "Business Protection",
+            "description": "Protecting your business means staying one step ahead, and helping you prevent problems before they happen."
+        }
+    ],
+
+    "Hero2": {
+        "header1": "Simpler, smarter, more rewarding cover",
+        "keypoint1":
+            {
+                "keypoint": "We help make sure you have no gaps",
+                "description":"With Swagata, you get comprehensive, not patchwork protection."
+            },
+
+        "keypoint2":
+                {
+                    "keypoint": "We look out for you",
+                    "description": "You get a protective partner to help prevent issues from happening in the first place."
+                }
+
+    },
+
+    "Why" :{
+        "text-secondary":"Why choose Swagata",
+        "text-primary":"Built from the ground up for the internet generation.",
+        "text-tertiary":"Swagata insurance is a digital-first insurer, using technology to make life insurance simpler, smarter and more rewarding.",
+
+        "3point":[
+            {
+                "h3": "Do everything online in no time. No more paperwork",
+                "p": "Get a quoted and covered in under 10 minutes online.",
+                "icon":"IoTimeOutline"
+            },
+            {
+                "h3": "You`re covered instantly with Swagata Insurance",
+                "p": "Buy your insurance online and get instant cover, before you`ve even paid for it.",
+                "icon":"IoTimeOutline"
+
+            },
+            {
+                "h3": "Skip premiums, For when life happens",
+                "p": "We let you proactively skip premiums without losing cover on your bonus.",
+                "icon":"IoTimeOutline"
+
+            }
+        ]
+    },
+
+    "Feature1":{
+        "h2":"Raise your expectation of what your insurer should deliver.",
+        "p": "Swagata featured products",
+        "description":"We think insurance should be more about living. So we've designed our products to protect and create wealth while you're alive",
+        "total_client":19,
+        "total_business":13
+    },
+
+    "Feature2":[
+        {
+            "icon":"",
+            "h3":"Auto insurance",
+            "p":"Your safety is what drives us to provide an exceptional standard of service.",
+            "number":"01"
+        },
+        {
+            "icon":"",
+            "h3":"Valuables",
+            "p":"Protect your valuables so their stories continue for generations to come.",
+            "number":"02"
+        },
+        {
+            "icon":"",
+            "h3":"Liability",
+            "p":"Extra protection for you and the people you care about.",
+            "number":"03"
+        },
+        {
+            "icon":"",
+            "h3":"Risk Engineering Services",
+            "p":"The in-house Risk Engineering Services team provides customized services.",
+            "number":"04"
+        },
+        {
+            "icon":"",
+            "h3":"Construction Safety",
+            "p":"Your safety is what drives us to provide exceptional standard of service.",
+            "number":"05"
+        },
+        {
+            "icon":"",
+            "h3":"Industrial Hygiene Analysis",
+            "p":"We help our clients customized Industrial Hygiene services to meet each of their unique needs.",
+            "number":"06"
+        }
+    ]
+
+}
