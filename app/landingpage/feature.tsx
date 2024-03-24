@@ -41,7 +41,7 @@ export function Feature() {
 
             <div>
                 {/* Simplify later using defined variable */}
-                <div className='pt-16 grid grid-row-1 md:grid-cols-3 gap-x-16 gap-y-16 px-32 md:px-0 '>
+                <div className='pt-16 grid grid-row-1 md:grid-cols-3 gap-x-16 gap-y-16 px-10 sm:px-0 '>
                     {landingPageData.Feature2.map((item: { h3: string, p: string, icon: string, number: string }, index: number) => (
                         <div key={index} className=''>
                             <div className='flex flex-row justify-between '>

@@ -1,5 +1,6 @@
 import landingPageData from "../../public/landingpage.json"
 
+
 export function Hero() {
     return (
 

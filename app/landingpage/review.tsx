@@ -2,9 +2,7 @@ import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 import React from "react";
 import Image from "next/image";
 import Image1 from "../../public/assets/landingpage/image1.jpg"
-import Image2 from "../../public/assets/landingpage/image2.jpg"
-import Image3 from "../../public/assets/landingpage/image2.jpg"
-import Image4 from "../../public/assets/landingpage/image2.jpg"
+
 
 
 
@@ -20,19 +18,19 @@ export function Review() {
         {
             name: 'Michael Frank',
             origin: "Singapore",
-            photo: Image2, // Provide actual image component or URL
+            photo: Image1, // Provide actual image component or URL
             review: "I've been amazed by the professionalism and dedication of the Swagata team. Their attention to detail and commitment to customer satisfaction are truly commendable."
         },
         {
             name: "Alice Johnson",
             origin: "London, UK",
-            photo: Image3, // Provide actual image component or URL
+            photo: Image1, // Provide actual image component or URL
             review: "Swagata has exceeded my expectations in every aspect. From their friendly customer service to their top-notch products, I couldn't be more satisfied."
         },
         {
             name: "Carlos Ramirez",
             origin: "Madrid, Spain",
-            photo: Image4, // Provide actual image component or URL
+            photo: Image1, // Provide actual image component or URL
             review: "Estoy muy impresionado por la calidad de los productos y la atención al cliente de Swagata. ¡Definitivamente los recomendaré a mis amigos y familiares!"
         }
 
