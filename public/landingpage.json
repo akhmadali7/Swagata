@@ -69,7 +69,7 @@
 
     "Feature2":[
         {
-            "icon":"",
+            "icon":"MdHealthAndSafety",
             "h3":"Auto insurance",
             "p":"Your safety is what drives us to provide an exceptional standard of service.",
             "number":"01"
@@ -105,5 +105,6 @@
             "number":"06"
         }
     ]
+
 
 }

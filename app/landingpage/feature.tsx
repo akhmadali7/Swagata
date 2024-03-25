@@ -1,7 +1,52 @@
+import React from 'react';
+
 import { MdHealthAndSafety, MdCleanHands } from "react-icons/md"; //1
 import { GiGoldBar } from "react-icons/gi";
 import { HiKey, HiLightningBolt } from "react-icons/hi";
 import { HiMiniBuildingLibrary } from "react-icons/hi2";
+
+
+//kalo bisa store value icon ke json sebenarnya ga perlu deklarasi dan assign value disini, skrg jadinya ga terlalu dynamic
+const features = [
+    {
+        icon: MdHealthAndSafety, //gatau cara nyimpen ini di json
+        h3: "Auto insurance",
+        p: "Your safety is what drives us to provide an exceptional standard of service.",
+        number: "01"
+    },
+    {
+        icon: GiGoldBar,
+        h3: "Valuables",
+        p: "Protect your valuables so their stories continue for generations to come.",
+        number: "02"
+    },
+    {
+        icon: HiKey,
+        h3: "Liability",
+        p: "Extra protection for you and the people you care about.",
+        number: "03"
+    },
+    {
+        icon: HiLightningBolt,
+        h3: "Risk Engineering Services",
+        p: "The in-house Risk Engineering Services team provides customized services.",
+        number: "04"
+    },
+    {
+        icon: HiMiniBuildingLibrary,
+        h3: "Construction Safety",
+        p: "Your safety is what drives us to provide exceptional standard of service.",
+        number: "05"
+    },
+    {
+        icon: MdCleanHands,
+        h3: "Industrial Hygiene Analysis",
+        p: "We help our clients customized Industrial Hygiene services to meet each of their unique needs.",
+        number: "06"
+    }
+];
+
+export default features;
 
 import landingPageData from "../../public/landingpage.json"
 
@@ -38,18 +83,24 @@ export function Feature() {
             <HiLightningBolt />
             <HiMiniBuildingLibrary />
             <MdCleanHands /> */}
+            {/* {features.map(({ icon: IconComponent, h3 }, index) => (
+                <div key={index}>
+                    <IconComponent className='w-7 h-7 text-secondary' />
+                    <p>{h3}</p>
+                </div>
+            ))} */}
 
             <div>
-                {/* Simplify later using defined variable */}
                 <div className='pt-16 grid grid-row-1 md:grid-cols-3 gap-x-16 gap-y-16 px-10 sm:px-0 '>
-                    {landingPageData.Feature2.map((item: { h3: string, p: string, icon: string, number: string }, index: number) => (
+                    {features.map(({ icon: IconComponent, h3, p, number }, index) => (
+
                         <div key={index} className=''>
                             <div className='flex flex-row justify-between '>
-                                <MdCleanHands className='w-7 h-7 text-secondary' />
-                                <h3 className='text-xl font-sans font-medium text-slate-400 pr-5'>{item.number}</h3>
+                                <IconComponent className='w-7 h-7 text-secondary' />
+                                <h3 className='text-xl font-sans font-medium text-slate-400 pr-5'>{number}</h3>
                             </div>
-                            <h3 className='pt-5 font-sans font-medium'>{item.h3}</h3>
-                            <p className='pt-2 text-slate-600'>{item.p}</p>
+                            <h3 className='pt-5 font-sans font-medium'>{h3}</h3>
+                            <p className='pt-2 text-slate-600'>{p}</p>
                         </div>
                     ))}
                 </div>

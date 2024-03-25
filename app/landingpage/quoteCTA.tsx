@@ -13,8 +13,8 @@ export function QuoteCTA() {
                     <div className='h-1'></div>
                 </div>
                 <div className="flex flex-row items-center justify-center sm:justify-end gap-x-4 gap-y-6 font-sans w-auto">
-                    <a href="" className="w-max py-[9px] px-3 md:px-7 bg-primary text-white rounded-full text-center">Get a quote</a>
-                    <a href="" className="w-max py-2 px-3 md:px-7 bg-transparent text-black rounded-full border-solid border-[1px] border-black text-center">Let us contact you</a>
+                    <a href="" className="w-max py-[9px] px-3 md:px-7 bg-secondary text-white rounded-full text-center">Get a quote</a>
+                    <a href="" className="w-max py-2 px-3 md:px-7 bg-transparent text-black rounded-full border-solid border-[1px] border-primary text-center">Let us contact you</a>
                 </div>
             </div>
         </div>

@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { SunIcon } from '@radix-ui/react-icons'
+import { FaRegSun } from "react-icons/fa6";
 
 import Image1 from "../../public/assets/landingpage/image1.jpg"
 
@@ -19,25 +19,25 @@ export function CTA() {
                     <div>
                         <p className='text-slate-600'>Agents and broker are vital to Swagata&rsquo;s success. To better assist you growth, we provide a variety of tools, resources and programming to help our agents and brokers succeed.</p>
                         <div className="flex flex-row items-center pt-10 gap-x-7 font-sans text-center">
-                            <a href="" className="py-[13px] px-7 bg-primary text-white rounded-full">Start free trial </a>
-                            <a href="" className="py-3 px-7 bg-transparent text-black rounded-full border-solid border-[1px] border-black">Login to Swapartner Portal</a>
+                            <a href="" className="py-[13px] px-7 bg-secondary text-white rounded-full">Start free trial </a>
+                            <a href="" className="py-3 px-7 bg-transparent text-black rounded-full border-solid border-[1px] border-secondary">Login to Swapartner Portal</a>
                         </div>
                     </div>
                 </div>
                 <div className="md:relative w-full md:w-1/2  md:h-auto  md:pb-0 ">
-                    <Image src={Image1} alt="hero image 1" className="object-cover h-52  md:h-[500px]  w-full rounded-2xl" />
-                    <div className="md:absolute bottom-5 left-5 xl:flex flex-col gap-y-3 pt-10 hidden ">
-                        <div className="flex flex-row items-center gap-x-3 px-4 py-3 bg-slate-200 rounded-full w-max">
-                            <SunIcon className="h-5 w-5" />
+                    <Image src={Image1} alt="hero image 1" className="object-cover h-52  md:h-[500px]  w-full rounded-2xl grayscale-10" />
+                    <div className="md:absolute bottom-5 left-5 xl:flex flex-col gap-y-3 pt-10 hidden text-tertiary">
+                        <div className="flex flex-row items-center gap-x-3 px-4 py-3 bg-secondary rounded-full w-max">
+                            <FaRegSun className="h-5 w-5" />
                             <div className="font-medium font-sans text-sm">Detailed Loss Information</div>
                         </div>
-                        <div className="flex flex-row items-center gap-x-3 px-4 py-3 bg-slate-200 rounded-full w-max">
-                            <SunIcon className="h-5 w-5" />
+                        <div className="flex flex-row items-center gap-x-3 px-4 py-3 bg-secondary rounded-full w-max">
+                            <FaRegSun className="h-5 w-5" />
                             <div className="font-medium font-sans text-sm">Risk Engineering Resource Center</div>
 
                         </div>
-                        <div className="flex flex-row items-center gap-x-3 px-4 py-3 bg-slate-200 rounded-full w-max">
-                            <SunIcon className="h-5 w-5" />
+                        <div className="flex flex-row items-center gap-x-3 px-4 py-3 bg-secondary rounded-full w-max">
+                            <FaRegSun className="h-5 w-5" />
                             <div className="font-medium font-sans text-sm ">Audit and Adjustment Managemer Portal</div>
 
                         </div>

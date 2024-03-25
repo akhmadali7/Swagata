@@ -14,8 +14,8 @@ export function Hero() {
                     <div className="xl:w-2/5 flex flex-col justify-end xl:justify-between pt-6 md:pt-0">
                         <h3 className="pr-3  md:px-0">{landingPageData.Hero.header2}</h3>
                         <div className="flex flex-row sm:flex-row items-center pt-6 gap-x-2 md:gap-x-5  gap-y-3 font-sans">
-                            <a href="" className="py-[9px] px-4 lg:px-7 bg-primary text-white rounded-full text-center">Start free trial </a>
-                            <a href="" className="py-2 px-4 lg:px-7 bg-transparent text-black rounded-full border-solid border-[1px] border-black text-center">Our Study Case</a>
+                            <a href="" className="py-[9px] px-4 lg:px-7 bg-secondary text-white rounded-full text-center">Start free trial </a>
+                            <a href="" className="py-2 px-4 lg:px-7 bg-transparent text-primary rounded-full border-solid border-[1px] border-secondary text-center">Our Study Case</a>
                         </div>
                     </div>
 
